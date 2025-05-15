@@ -1,9 +1,13 @@
 {
-  "devDependencies": {},
   "engines": {
     "node": "22.x"
   },
   "dependencies": {
-    "cypress": "^14.3.3"
+    "cypress": "^14.3.3",
+    "dotenv": "^16.5.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   }
 }
